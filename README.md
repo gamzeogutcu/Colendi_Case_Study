@@ -35,32 +35,32 @@ The dataset includes the following key variables:
 6. Investigate the impact of demographic factors on credit behavior.
 
 ## Methodology
-# Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 The project begins with an Exploratory Data Analysis (EDA) to understand the dataset's structure, identify patterns, and spot any anomalies. During the EDA phase, we perform the following tasks:
-    Descriptive Statistics: Generate summary statistics to get an overview of the dataset.
-    Distribution Analysis: Examine the distribution of key variables, such as credit amounts and repayment statuses.
-    Correlation Analysis: Identify relationships between different features, such as age, credit amount, and payment status.
-    Visualization: Utilize visual tools like histograms and box plots to represent the data visually and facilitate better understanding.
+- Descriptive Statistics: Generate summary statistics to get an overview of the dataset.
+- Distribution Analysis: Examine the distribution of key variables, such as credit amounts and repayment statuses.
+- Correlation Analysis: Identify relationships between different features, such as age, credit amount, and payment status.
+- Visualization: Utilize visual tools like histograms and box plots to represent the data visually and facilitate better understanding.
 
 By performing EDA, we establish a foundation for more detailed analysis, allowing us to generate meaningful insights regarding credit usage and repayment behaviors among customers.
-# Data Cleaning
-    Missing Values: Analyze the dataset for any missing values and determine how to handle them, whether through imputation, removal, or other strategies.
-    Outlier Analysis: Identify outliers that may skew the data and decide whether to remove or adjust them to ensure accurate analysis.
-    Duplicate Rows: Examine the dataset for any duplicate entries and remove them to maintain data integrity.
-# Data Transformation 
+### Data Cleaning
+- Missing Values: Analyze the dataset for any missing values and determine how to handle them, whether through imputation, removal, or other strategies.
+- Outlier Analysis: Identify outliers that may skew the data and decide whether to remove or adjust them to ensure accurate analysis.
+- Duplicate Rows: Examine the dataset for any duplicate entries and remove them to maintain data integrity.
+### Data Transformation 
 Various transformations were applied to derive new metrics, such as age, payment delays and quartiles.
-# Analysis 
+### Analysis 
 Used descriptive statistics and grouping methods to analyze payment behaviors.
-# Visualization
+### Visualization
 Employed libraries like Matplotlib and Seaborn to visualize trends and insights.
 
 ## Conclusion
 This analysis provides valuable insights into the credit data, revealing patterns in credit utilization, payment behaviors, and customer demographics. The visualizations serve to enhance the interpretation of the data, facilitating better decision-making and understanding of the credit landscape.
 
 ## Libraries
-    pandas
-    numpy
-    matplotlib
-    seaborn
-    missingno
-    warnings
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- missingno
+- warnings
